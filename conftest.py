@@ -28,7 +28,3 @@ def open_login_page(open_main_page):
 @pytest.fixture()
 def open_shopping_page(open_login_page):
     return open_login_page.open_shopping_page()
-
-@pytest.fixture()
-def open_shopping_page(open_login_page):
-    return open_login_page.open_shopping_page()
